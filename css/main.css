@@ -1,0 +1,2150 @@
+/* stylos index */
+
+.bodyProduct{
+  background-image:url(../img/imgfondo375px.jpg);
+  font-family: 'NouvelR', sans-serif;
+}
+
+.contenedorProduct {
+  display: grid;
+  grid-template-areas: "headerProduct headerProduct headerProduct headerProduct"
+ "mainProduct mainProduct mainProduct mainProduct"
+ "pProduct pProduct pProduct pProduct"
+ "footerProduct footerProduct footerProduct footerProduct"; }
+
+.headerProduct {
+  grid-area: headerProduct;
+  display: flex;
+  justify-content: center;
+  margin: 1rem; }
+  .headerProduct a {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 0.5rem;
+    text-decoration: none;
+    color: #004649; }
+    .headerProduct a img {
+      border-radius: 100px; }
+
+.mainProduct {
+  grid-area: mainProduct;
+  display: grid; }
+  .mainProduct ol li {
+    margin-right: 80px;
+    margin-top: 5px;
+    list-style: none; }
+  .mainProduct ol a {
+    font-size: 1rem;
+    display: block;
+    padding: 10px;
+    margin-left: 60px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #004649;}
+
+.subtitulosProdu{
+  font-size: 1rem;
+  text-align: center;
+  padding: 4px;
+  background-color: #2CB196;
+      border: 1px solid #004649;
+      border-radius: 100px;
+  color: #004649;}
+  .subtitulosProdu:hover{
+    background-color: white;
+  }
+        
+.pProduct {
+  display: grid;
+  grid-area: pProduct; }
+  .pProduct h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1rem; }
+  div .parrafoProduct {
+    text-align: start;
+    color: #004649;
+    margin-right: 90px;
+    margin-left: 90px;
+  }
+
+.footerProduct {
+  grid-area: footerProduct;
+  font-size: 1.3rem; }
+  .footerProduct p {
+    margin-left: 33px;
+    margin-right: 33px;
+    margin-top: 30px;
+    font-size: 0.6rem;
+    color: #004649;
+    text-align: center; }
+  .footerProduct a {
+    font-weight: bolder;
+    font-size: 0.8rem;
+    margin-left: 80px;
+    text-decoration: none;
+    color: #004649; }
+
+/* media queris nuestros productos */
+@media only screen and (min-width: 480px){
+  .bodyProduct{
+    background-image: url(../img/imgfondo480px.jpg);
+  }
+  .mainProduct ol li a{
+    font-size: 0.9rem;
+    margin-left: 35px;
+    text-align: start;
+  }
+  .footerProduct p {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (min-width: 600px){
+  .bodyProduct{
+    background-image: url(../img/imgfondo600px.jpg);
+  }
+
+  .mainProduct ol li{
+    font-size: 1rem;
+    margin-left: 30px;
+  }
+  .pProduct p{
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+  .footerProduct p {
+    font-size: 0.8rem;
+  }
+  .footerProduct a{
+    margin-left: 110px;
+  }
+}
+@media only screen and (min-width: 1024px){
+  .bodyProduct{
+    background-image: url(../img/imgfondo1024px.jpg);
+  }
+  .headerProduct h1{
+    font-size: 4rem;
+  }
+  .mainProduct ol li a{
+    margin-left: 170px;
+    font-size: 1.5rem;
+  }
+  .pProduct h2{
+    margin-top: 30px;
+    font-size: 1.8rem;
+  }
+  .mainProduct .subtitulosProdu{
+    font-size: 1.5rem;
+  }
+  div .parrafoProduct{
+    margin-right: 160px;
+    margin-left: 190px;
+    font-size: 1.3rem;
+  }
+  footer .botonV a{
+    margin-left: 150px;
+    margin-top: 100px;
+    font-size: 1rem;
+  }
+  .footerProduct p{
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .bodyProduct{
+    background-image: url(../img/imgfondo1200px.jpg);
+    height: 80vh;
+  }
+  .headerProduct a h1{
+    font-size: 4rem;
+  }
+  .pProduct h2{
+    margin-top: 30px;
+    font-size: 1.8rem;
+  }
+  div .parrafoProduct{
+    margin-right: 290px;
+    margin-left: 350px;
+    font-size: 1.3rem;
+  }
+  footer .botonV a{
+    margin-left: 250px;
+    margin-top: 100px;
+    font-size: 1rem;
+  }
+  .footerProduct p{
+    margin-top: 130px;
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .bodyProduct{
+    background-image: url(../img/imgfondo1600px.jpg);
+  }
+  .mainProduct ol li a{
+    margin-left: 300px;
+  }
+}
+
+/* stylos hv-pro */
+.bodyHvPro{
+  background-image: url(../img/imgfondo375px.jpg);
+}
+
+.contenedorHvPro {
+  display: grid;
+  grid-template-areas: "headerHvPro headerHvPro headerHvPro headerHvPro"
+ "mainHvPro mainHvPro mainHvPro mainHvPro"
+ "imgHvPro imgHvPro imgHvPro imgHvPro"
+ "sectionInfo sectionInfo sectionInfo sectionInfo"
+ "footerHvPro footerHvPro footerHvPro footerHvPro"; }
+
+.headerHvPro {
+  grid-area: headerHvPro;
+  display: grid;
+  justify-content: center; }
+  .headerHvPro a {
+    text-decoration: none;
+    color: #004649; }
+  .headerHvPro h1 {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 90px; }
+div header p {
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 90px;
+}
+
+.mainHvPro {
+  grid-area: mainHvPro; }
+  .mainHvPro h2 {
+    text-align: center;
+    color: #004649;
+    background-color: white;
+    margin-left: 60px;
+    margin-right: 85px;
+    padding: 5px; }
+
+.sectionHvPro ul{
+    text-align: start;
+    margin-right: 80px;
+    margin-left: 70px;
+    color: #004649}
+  .sectionHvPro ul li{
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .titulosHvpro {
+    font-weight: bolder;
+    color: #2CB196;
+  }
+
+.sectionInfo {
+  font-size: 1.1rem;
+  grid-area: sectionInfo;
+  color: #004649; }
+  .sectionInfo .primerP{
+    text-align: start;
+    margin-left: 70px;
+    margin-right: 80px;
+  }
+  .sectionInfo h3 a{
+    margin-right: 40px;
+    margin-left: 70px;
+    text-align: start;
+    font-size: 1rem;
+    color: #2CB196; }
+  .sectionInfo h4{
+    margin-right: 80px;
+    margin-left: 80px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  .sectionInfo p{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .sectionInfo ul li {
+    margin-left: 60px;
+    margin-right: 70px;
+    text-align: start;
+    color: #2CB196; }
+    .sectionInfo .styloLista{
+      color: #004649;
+    }
+  .sectionInfo a{
+    font-weight: bolder;
+    text-decoration: none;
+    color:#2CB196;
+  }
+  .sectionInfo .colorLista {
+    color: #004649;
+  }
+  .sectionInfo .subtFinal{
+    font-weight: bolder;
+  }
+
+.bmkTips{
+  font-weight: bolder;
+} 
+
+.imgHvPro {
+  display: none;
+  margin-right: 60px;
+  grid-area: imgHvPro;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px; }
+  .imgHvPro img {
+    margin-left: 20px;
+    height: 190px;
+    width: auto; }
+
+.footerHvPro {
+  grid-area: footerHvPro; }
+  .footerHvPro a {
+    font-weight: bolder;
+    font-size: 0.8rem;
+    margin-left: 80px;
+    text-decoration: none;
+    color: #004649; }
+  .footerHvPro p {
+    margin-top: 20px;
+    font-size: 0.7rem;
+    text-align: center;
+    color: #004649; }
+
+/* media queris hv pro */
+@media only screen and (min-width: 480px){
+  .bodyHvPro{
+    background-image: url(../img/imgfondo480px.jpg);
+  }
+  .mainHvPro h2{
+    margin-left: 80px;
+  }
+  .sectionInfo h3{
+    margin-left: 20px;
+  }
+  .sectionInfo h4{
+    margin-left: 90px;
+  }
+  .sectionInfo p{
+    margin-left: 90px;
+  }
+  .sectionInfo ul li{
+    margin-left: 80px;
+    margin-right: 90px;
+  }
+}
+@media only screen and (min-width: 600px){
+  .bodyHvPro{
+    background-image: url(../img/imgfondo600px.jpg);
+  }
+  .headerHvPro{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .mainHvPro{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .sectionInfo .primerP{
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .sectionInfo h3{
+    margin-left: 40px;
+  }
+  .sectionInfo h4{
+    margin-left: 120px;
+  }
+  .sectionInfo p{
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  .sectionInfo ul li{
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  .footerHvPro a{
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .bodyHvPro{
+    background-image: url(../img/imgfondo1024px.jpg);
+  }
+  .headerHvPro h1 a{
+    font-size: 4rem;
+  }
+  .headerHvPro{
+    font-size: 1.4rem;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .mainHvPro{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .mainHvPro h2{
+    font-size: 2.5rem;
+  }
+  .mainHvPro ul li{
+    font-size: 1.5rem;
+  }
+  .sectionInfo .primerP{
+    font-size: 1.4rem;
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+  .sectionInfo h3 a{
+    font-size: 1.7rem;
+    margin-left: 130px;
+  }
+  .sectionInfo h4{
+    font-size: 1.4rem;
+    margin-left: 190px;
+  }
+  .sectionInfo p{
+    font-size: 1.4rem;
+    margin-left: 190px;
+    margin-right: 190px;
+  }
+  .sectionInfo ul li{
+    font-size: 1.5rem;
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+  .footerHvPro a{
+    font-size: 1rem;
+    margin-left: 180px;
+  }
+  .footerHvPro p{
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .bodyHvPro{
+    background-image: url(../img/imgfondo1200productos.jpg);
+
+  }
+  .mainHvPro h2{
+    margin-right: 250px;
+    margin-left: 250px;
+  }
+  .mainHvPro ul li{
+    margin-left: 170px;
+  }
+  .sectionInfo .primerP{
+    margin-left: 290px;
+    margin-right: 250px;
+  }
+  .sectionInfo h3 a{
+    margin-left: 250px;
+  }
+  .sectionInfo h4{
+    margin-left: 320px;
+  }
+  .sectionInfo p{
+    margin-right: 300px;
+    margin-left: 340px;
+  }
+  .sectionInfo ul li{
+    margin-left: 320px;
+    margin-right: 300px;
+  }
+}
+@media only screen and (min-width: 1600px){
+  .bodyHvPro{
+    background-image: url(../img/imgfondo1600productos.jpg);
+  }
+}
+
+/* stylos pseudo-pro */
+
+.bodyProPseudo{
+  background-image: url(../img/imgfondo375px.jpg);
+}
+
+.contenedorProPseudo {
+  display: grid;
+  grid-template-areas: "headerProPseudo headerProPseudo headerProPseudo headerProPseudo"
+ "mainProPseudo mainProPseudo mainProPseudo mainProPseudo"
+ "imgProPseudo imgProPseudo imgProPseudo imgProPseudo"
+ "sectionInfoProPseudo sectionInfoProPseudo sectionInfoProPseudo sectionInfoProPseudo"
+ "footerProPseudo footerProPseudo footerProPseudo footerProPseudo"; }
+
+.headerProPseudo {
+  grid-area: headerProPseudo;
+  display: grid;
+  justify-content: center; }
+  .headerProPseudo a {
+    text-decoration: none;
+    color: #004649; }
+  .headerProPseudo h1 {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 90px; }
+div header p {
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 90px;
+}
+
+.mainProPseudo {
+  grid-area: mainProPseudo; }
+  .mainProPseudo h2 {
+    text-align: center;
+    color: #004649;
+    background-color: white;
+    margin-left: 60px;
+    margin-right: 85px;
+    padding: 5px; }
+
+.sectionProPseudo ul{
+    text-align: start;
+    margin-right: 80px;
+    margin-left: 70px;
+    color: #004649}
+  .sectionProPseudo ul li{
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .titulosPropseudo {
+    font-weight: bolder;
+    color: #2CB196;
+  }
+
+.sectionInfoProPseudo {
+  font-size: 1.1rem;
+  grid-area: sectionInfoProPseudo;
+  color: #004649; }
+  .sectionInfoProPseudo .primerP{
+    text-align: start;
+    margin-left: 70px;
+    margin-right: 80px;
+  }
+  .sectionInfoProPseudo h3 a{
+    margin-right: 40px;
+    margin-left: 70px;
+    text-align: start;
+    font-size: 0.9rem;
+    color: #2CB196; }
+  .sectionInfoProPseudo h4{
+    margin-right: 80px;
+    margin-left: 80px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  .sectionInfoProPseudo p{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .sectionInfoProPseudo ul li {
+    margin-left: 60px;
+    margin-right: 70px;
+    text-align: start;
+    color: #2CB196; }
+    .sectionInfoProPseudo .styloLista{
+      color: #004649;
+    }
+  .sectionInfoProPseudo a{
+    font-weight: bolder;
+    text-decoration: none;
+    color:#2CB196;
+  }
+  .sectionInfoProPseudo .colorLista {
+    color: #004649;
+  }
+  .sectionInfoProPseudo .subtFinal{
+    font-weight: bolder;
+  }
+
+.bmkTips{
+  font-weight: bolder;
+} 
+
+.imgProPseudo {
+  display: none;
+  margin-right: 60px;
+  grid-area: imgProPseudo;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px; }
+  .imgProPseudo img {
+    margin-left: 20px;
+    height: 190px;
+    width: auto; }
+
+.footerProPseudo {
+  grid-area: footerProPseudo; }
+  .footerProPseudo a {
+    font-weight: bolder;
+    font-size: 0.8rem;
+    margin-left: 80px;
+    text-decoration: none;
+    color: #004649; }
+  .footerProPseudo p {
+    margin-top: 20px;
+    font-size: 0.7rem;
+    text-align: center;
+    color: #004649; }
+
+/* media queris pro pseudo */
+@media only screen and (min-width: 480px){
+  .bodyProPseudo{
+    background-image: url(../img/imgfondo480px.jpg);
+  }
+  .mainProPseudo h2{
+    margin-left: 80px;
+  }
+  .sectionInfoProPseudo h3{
+    margin-left: 20px;
+  }
+  .sectionInfoProPseudo h4{
+    margin-left: 90px;
+  }
+  .sectionInfoProPseudo p{
+    margin-left: 90px;
+  }
+  .sectionInfoProPseudo ul li{
+    margin-left: 80px;
+    margin-right: 90px;
+  }
+}
+@media only screen and (min-width: 600px){
+  .bodyProPseudo{
+    background-image: url(../img/imgfondo600px.jpg);
+  }
+  .headerProPseudo{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .mainProPseudo{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .sectionInfoProPseudo .primerP{
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .sectionInfoProPseudo h3{
+    margin-left: 40px;
+  }
+  .sectionInfoProPseudo h4{
+    margin-left: 120px;
+  }
+  .sectionInfoProPseudo p{
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  .sectionInfoProPseudo ul li{
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  .footerProPseudo a{
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .bodyProPseudo{
+    background-image: url(../img/imgfondo1024px.jpg);
+  }
+  .headerProPseudo h1 a{
+    font-size: 4rem;
+  }
+  .headerProPseudo{
+    font-size: 1.4rem;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .mainProPseudo{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .mainProPseudo h2{
+    font-size: 2.5rem;
+  }
+  .mainProPseudo ul li{
+    font-size: 1.5rem;
+  }
+  .sectionInfoProPseudo .primerP{
+    font-size: 1.4rem;
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+  .sectionInfoProPseudo h3 a{
+    font-size: 1.7rem;
+    margin-left: 130px;
+  }
+  .sectionInfoProPseudo h4{
+    font-size: 1.4rem;
+    margin-left: 190px;
+  }
+  .sectionInfoProPseudo p{
+    font-size: 1.4rem;
+    margin-left: 190px;
+    margin-right: 250px;
+  }
+  .sectionInfoProPseudo ul li{
+    font-size: 1.5rem;
+    margin-left: 180px;
+    margin-right: 250px;
+  }
+  .footerProPseudo a{
+    font-size: 1rem;
+    margin-left: 100px;
+  }
+  .footerProPseudo p{
+    margin-left: 320px;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .bodyProPseudo{
+    background-image: url(../img/imgfondo1200px.jpg);
+  }
+  .mainProPseudo h2{
+    margin-right: 250px;
+    margin-left: 250px;
+  }
+  .mainProPseudo ul li{
+    margin-left: 170px;
+  }
+  .sectionInfoProPseudo .primerP{
+    margin-left: 290px;
+    margin-right: 250px;
+  }
+  .sectionInfoProPseudo h3 a{
+    margin-left: 250px;
+  }
+  .sectionInfoProPseudo h4{
+    margin-left: 320px;
+  }
+  .sectionInfoProPseudo p{
+    margin-left: 340px;
+    margin-right: 300px;
+  }
+  .sectionInfoProPseudo ul li{
+    margin-right: 300px;
+    margin-left: 320px;
+  }
+  .footerProPseudo div a{
+    margin-left: 350px;
+  }
+}
+@media only screen and (min-width: 1600px){
+  .bodyProPseudo{
+    background-image: url(../img/imgfondo1600productos.jpg);
+  }
+}
+
+/* stylos bacillus-pro */
+  .bodyBacillusPro{
+    background-image: url(../img/imgfondo375px.jpg);
+  }
+  
+  .contenedorPseudoPro {
+    display: grid;
+    grid-template-areas: "headerBacillusPro headerBacillusPro headerBacillusPro headerBacillusPro"
+   "mainBacillusPro mainBacillusPro mainBacillusPro mainBacillusPro"
+   "imgBacillusPro imgBacillusPro imgBacillusPro imgBacillusPro"
+   "sectionInfoBacillusPro sectionInfoBacillusPro sectionInfoBacillusPro sectionInfoBacillusPro"
+   "footerBacillusPro footerBacillusPro footerBacillusPro footerBacillusPro"; }
+  
+  .headerBacillusPro {
+    grid-area: headerBacillusPro;
+    display: grid;
+    justify-content: center; }
+    .headerBacillusPro a {
+      text-decoration: none;
+      color: #004649; }
+    .headerBacillusPro h1 {
+      margin-top: 20px;
+      text-align: center;
+      margin-left: 70px;
+      margin-right: 90px; }
+  div header p {
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 90px;
+  }
+  
+  .mainBacillusPro {
+    grid-area: mainBacillusPro; }
+    .mainBacillusPro h2 {
+      text-align: center;
+      color: #004649;
+      background-color: white;
+      margin-left: 60px;
+      margin-right: 85px;
+      padding: 5px; }
+  
+  .sectionBacillusPro ul{
+      text-align: start;
+      margin-right: 80px;
+      margin-left: 70px;
+      color: #004649}
+    .sectionBacillusPro ul li{
+      margin-right: 20px;
+      margin-top: 10px;
+    }
+    .titulosBacilluspro {
+      font-weight: bolder;
+      color: #2CB196;
+    }
+  
+  .sectionInfoBacillusPro {
+    font-size: 1.1rem;
+    grid-area: sectionInfoBacillusPro;
+    color: #004649; }
+    .sectionInfoBacillusPro .primerP{
+      text-align: start;
+      margin-left: 70px;
+      margin-right: 80px;
+    }
+    .sectionInfoBacillusPro h3 a{
+      margin-right: 40px;
+      margin-left: 70px;
+      text-align: start;
+      font-size: 0.9rem;
+      color: #2CB196; }
+    .sectionInfoBacillusPro h4{
+      margin-right: 80px;
+      margin-left: 80px;
+      font-weight: bold;
+      margin-top: 20px;
+      font-size: 1rem;
+    }
+    .sectionInfoBacillusPro p{
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+    .sectionInfoBacillusPro ul li {
+      margin-left: 60px;
+      margin-right: 70px;
+      text-align: start;
+      color: #2CB196; }
+      .sectionInfoBacillusPro .styloLista{
+        color: #004649;
+      }
+    .sectionInfoBacillusPro a{
+      font-weight: bolder;
+      text-decoration: none;
+      color:#2CB196;
+    }
+    .sectionInfoBacillusPro .colorLista {
+      color: #004649;
+    }
+    .sectionInfoBacillusPro .subtFinal{
+      font-weight: bolder;
+    }
+  
+  .bmkTips{
+    font-weight: bolder;
+  } 
+  
+  .imgBacillusPro {
+    display: none;
+    margin-right: 60px;
+    grid-area: imgBacillusPro;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px; }
+    .imgBacillusPro img {
+      margin-left: 20px;
+      height: 190px;
+      width: auto; }
+  
+  .footerBacillusPro {
+    grid-area: footerBacillusPro; }
+    .footerBacillusPro a {
+      font-weight: bolder;
+      font-size: 0.8rem;
+      margin-left: 80px;
+      text-decoration: none;
+      color: #004649; }
+    .footerBacillusPro p {
+      margin-top: 20px;
+      font-size: 0.7rem;
+      text-align: center;
+      color: #004649; }
+  
+  /* media queris bacillus pro */
+  @media only screen and (min-width: 480px){
+    .bodyBacillusPro{
+      background-image: url(../img/imgfondo480px.jpg);
+    }
+    .mainBacillusPro h2{
+      margin-left: 80px;
+    }
+    .sectionInfoBacillusPro h3{
+      margin-left: 20px;
+    }
+    .sectionInfoBacillusPro h4{
+      margin-left: 90px;
+    }
+    .sectionInfoBacillusPro p{
+      margin-left: 90px;
+    }
+    .sectionInfoBacillusPro ul li{
+      margin-left: 80px;
+      margin-right: 90px;
+    }
+  }
+  @media only screen and (min-width: 600px){
+    .bodyBacillusPro{
+      background-image: url(../img/imgfondo600px.jpg);
+    }
+    .headerBacillusPro{
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .mainBacillusPro{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .sectionInfoBacillusPro .primerP{
+      margin-right: 100px;
+      margin-left: 100px;
+    }
+    .sectionInfoBacillusPro h3{
+      margin-left: 40px;
+    }
+    .sectionInfoBacillusPro h4{
+      margin-left: 120px;
+    }
+    .sectionInfoBacillusPro p{
+      margin-left: 120px;
+      margin-right: 120px;
+    }
+    .sectionInfoBacillusPro ul li{
+      margin-right: 120px;
+      margin-left: 120px;
+    }
+    .footerBacillusPro a{
+      margin-left: 100px;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px){
+    .bodyBacillusPro{
+      background-image: url(../img/imgfondo1024px.jpg);
+    }
+    .headerBacillusPro h1 a{
+      font-size: 4rem;
+    }
+    .headerBacillusPro{
+      font-size: 1.4rem;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+    .mainBacillusPro{
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+    .mainBacillusPro h2{
+      font-size: 2.5rem;
+    }
+    .mainBacillusPro ul li{
+      font-size: 1.5rem;
+    }
+    .sectionInfoBacillusPro .primerP{
+      font-size: 1.4rem;
+      margin-left: 140px;
+      margin-right: 140px;
+    }
+    .sectionInfoBacillusPro h3 a{
+      font-size: 1.7rem;
+      margin-left: 130px;
+    }
+    .sectionInfoBacillusPro h4{
+      font-size: 1.4rem;
+      margin-left: 190px;
+    }
+    .sectionInfoBacillusPro p{
+      font-size: 1.4rem;
+      margin-left: 190px;
+      margin-right: 250px;
+    }
+    .sectionInfoBacillusPro ul li{
+      font-size: 1.5rem;
+      margin-left: 180px;
+      margin-right: 250px;
+    }
+    .footerBacillusPro a{
+      font-size: 1rem;
+      margin-left: 100px;
+    }
+    .footerBacillusPro p{
+      margin-left: 320px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px){
+    .bodyBacillusPro{
+      background-image: url(../img/imgfondo1200px.jpg);
+    }
+    .mainBacillusPro h2{
+      margin-right: 250px;
+      margin-left: 250px;
+    }
+    .mainBacillusPro ul li{
+      margin-left: 170px;
+    }
+    .sectionInfoBacillusPro .primerP{
+      margin-left: 290px;
+      margin-right: 250px;
+    }
+    .sectionInfoBacillusPro h3 a{
+      margin-left: 250px;
+    }
+    .sectionInfoBacillusPro h4{
+      margin-left: 320px;
+    }
+    .sectionInfoBacillusPro p{
+      margin-left: 340px;
+      margin-right: 300px;
+    }
+    .sectionInfoBacillusPro ul li{
+      margin-right: 300px;
+      margin-left: 320px;
+    }
+    .footerBacillusPro div a{
+      margin-left: 350px;
+    }
+  }
+  @media only screen and (min-width: 1600px){
+    .bodyBacillusPro{
+      background-image: url(../img/imgfondo1600productos.jpg);
+    }
+  }
+
+/* stylos control-b */
+.bodyControlB{
+  background-image: url(../img/imgfondo375px.jpg);
+}
+
+.contenedorControlB {
+  display: grid;
+  grid-template-areas: "headerControlB headerControlB headerControlB headerControlB"
+  "mainControlB mainControlB mainControlB mainControlB"
+  "imgControlB imgControlB imgControlB imgControlB"
+  "sectionInfoControlB sectionInfoControlB sectionInfoControlB sectionInfoControlB"
+  "footerControlB footerControlB footerControlB footerControlB"; }
+
+.headerControlB {
+  grid-area: headerControlB;
+  display: grid;
+  justify-content: center; }
+  .headerControlB a {
+    text-decoration: none;
+    color: #004649; }
+  .headerControlB h1 {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 90px; }
+div header p {
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 90px;
+}
+
+.mainControlB {
+  grid-area: mainControlB; }
+  .mainControlB h2 {
+    text-align: center;
+    color: #004649;
+    background-color: white;
+    margin-left: 60px;
+    margin-right: 85px;
+    padding: 5px; }
+
+.sectionControlB ul{
+    text-align: start;
+    margin-right: 80px;
+    margin-left: 70px;
+    color: #004649}
+  .sectionControlB ul li{
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .titulosControlb {
+    font-weight: bolder;
+    color: #2CB196;
+  }
+
+.sectionInfoControlB {
+  font-size: 1.1rem;
+  grid-area: sectionInfoControlB;
+  color: #004649; }
+  .sectionInfoControlB .primerP{
+    text-align: start;
+    margin-left: 70px;
+    margin-right: 80px;
+  }
+  .sectionInfoControlB h3 a{
+    margin-right: 40px;
+    margin-left: 70px;
+    text-align: start;
+    font-size: 0.9rem;
+    color: #2CB196; }
+  .sectionInfoControlB h4{
+    margin-right: 80px;
+    margin-left: 80px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  .sectionInfoControlB p{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .sectionInfoControlB ul li {
+    margin-left: 60px;
+    margin-right: 70px;
+    text-align: start;
+    color: #2CB196; }
+    .sectionInfoControlB .styloLista{
+      color: #004649;
+    }
+  .sectionInfoControlB a{
+    font-weight: bolder;
+    text-decoration: none;
+    color:#2CB196;
+  }
+  .sectionInfoControlB .colorLista {
+    color: #004649;
+  }
+  .sectionInfoControlB .subtFinal{
+    font-weight: bolder;
+  }
+
+.bmkTips{
+  font-weight: bolder;
+} 
+
+.imgControlB {
+  display: none;
+  margin-right: 60px;
+  grid-area: imgControlB;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px; }
+  .imgControlB img {
+    margin-left: 20px;
+    height: 190px;
+    width: auto; }
+
+.footerControlB {
+  grid-area: footerControlB; }
+  .footerControlB a {
+    font-weight: bolder;
+    font-size: 0.8rem;
+    margin-left: 80px;
+    text-decoration: none;
+    color: #004649; }
+  .footerControlB p {
+    margin-top: 20px;
+    font-size: 0.7rem;
+    text-align: center;
+    color: #004649; }
+
+/* media queris control-b */
+@media only screen and (min-width: 480px){
+  .bodyControlB{
+    background-image: url(../img/imgfondo480px.jpg);
+  }
+  .mainControlB h2{
+    margin-left: 80px;
+  }
+  .sectionInfoControlB h3{
+    margin-left: 20px;
+  }
+  .sectionInfoControlB h4{
+    margin-left: 90px;
+  }
+  .sectionInfoControlB p{
+    margin-left: 90px;
+  }
+  .sectionInfoControlB ul li{
+    margin-left: 80px;
+    margin-right: 90px;
+  }
+}
+@media only screen and (min-width: 600px){
+  .bodyControlB{
+    background-image: url(../img/imgfondo600px.jpg);
+  }
+  .headerControlB{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .mainControlB{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .sectionInfoControlB .primerP{
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .sectionInfoControlB h3{
+    margin-left: 40px;
+  }
+  .sectionInfoControlB h4{
+    margin-left: 120px;
+  }
+  .sectionInfoControlB p{
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  .sectionInfoControlB ul li{
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  .footerControlB a{
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .bodyControlB{
+    background-image: url(../img/imgfondo1024px.jpg);
+  }
+  .headerControlB h1 a{
+    font-size: 4rem;
+  }
+  .headerControlB{
+    font-size: 1.4rem;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .mainControlB{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .mainControlB h2{
+    font-size: 2.5rem;
+  }
+  .mainControlB ul li{
+    font-size: 1.5rem;
+  }
+  .sectionInfoControlB .primerP{
+    font-size: 1.4rem;
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+  .sectionInfoControlB h3 a{
+    font-size: 1.7rem;
+    margin-left: 130px;
+  }
+  .sectionInfoControlB h4{
+    font-size: 1.4rem;
+    margin-left: 190px;
+  }
+  .sectionInfoControlB p{
+    font-size: 1.4rem;
+    margin-left: 190px;
+    margin-right: 250px;
+  }
+  .sectionInfoControlB ul li{
+    font-size: 1.5rem;
+    margin-left: 180px;
+    margin-right: 250px;
+  }
+  .footerControlB a{
+    font-size: 1rem;
+    margin-left: 100px;
+  }
+  .footerControlB p{
+    margin-left: 320px;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .bodyControlB{
+    background-image: url(../img/imgfondo1200px.jpg);
+  }
+  .mainControlB h2{
+    margin-right: 250px;
+    margin-left: 250px;
+  }
+  .mainControlB ul li{
+    margin-left: 170px;
+  }
+  .sectionInfoControlB .primerP{
+    margin-left: 290px;
+    margin-right: 250px;
+  }
+  .sectionInfoControlB h3 a{
+    margin-left: 250px;
+  }
+  .sectionInfoControlB h4{
+    margin-left: 320px;
+  }
+  .sectionInfoControlB p{
+    margin-left: 340px;
+    margin-right: 300px;
+  }
+  .sectionInfoControlB ul li{
+    margin-right: 300px;
+    margin-left: 320px;
+  }
+}
+@media only screen and (min-width: 1600px){
+  .bodyControlB{
+    background-image: url(../img/imgfondo1600productos.jpg);
+  }
+}
+
+/* stylos macro-pk */
+.bodyMacroPk{
+  background-image: url(../img/imgfondo375px.jpg);
+}
+
+.contenedorMacroPk {
+  display: grid;
+  grid-template-areas: "headerMacroPk headerMacroPk headerMacroPk headerMacroPk"
+ "mainMacroPk mainMacroPk mainMacroPk mainMacroPk"
+ "imgMacroPk imgMacroPk imgMacroPk imgMacroPk"
+ "sectionInfoMacroPk sectionInfoMacroPk sectionInfoMacroPk sectionInfoMacroPk"
+ "footerMacroPk footerMacroPk footerMacroPk footerMacroPk"; }
+
+.headerMacroPk {
+  grid-area: headerMacroPk;
+  display: grid;
+  justify-content: center; }
+  .headerMacroPk a {
+    text-decoration: none;
+    color: #004649; }
+  .headerMacroPk h1 {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 90px; }
+div header p {
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 90px;
+}
+
+.mainMacroPk {
+  grid-area: mainMacroPk; }
+  .mainMacroPk h2 {
+    text-align: center;
+    color: #004649;
+    background-color: white;
+    margin-left: 60px;
+    margin-right: 85px;
+    padding: 5px; }
+
+.sectionMacroPk ul{
+    text-align: start;
+    margin-right: 80px;
+    margin-left: 70px;
+    color: #004649}
+  .sectionMacroPk ul li{
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .titulosMacropk {
+    font-weight: bolder;
+    color: #2CB196;
+  }
+
+.sectionInfoMacroPk {
+  font-size: 1.1rem;
+  grid-area: sectionInfoMacroPk;
+  color: #004649; }
+  .sectionInfoMacroPk .primerP{
+    text-align: start;
+    margin-left: 70px;
+    margin-right: 80px;
+  }
+  .sectionInfoMacroPk h3 a{
+    margin-right: 40px;
+    margin-left: 70px;
+    text-align: start;
+    font-size: 0.9rem;
+    color: #2CB196; }
+  .sectionInfoMacroPk h4{
+    margin-right: 80px;
+    margin-left: 80px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  .sectionInfoMacroPk p{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .sectionInfoMacroPk ul li {
+    margin-left: 60px;
+    margin-right: 70px;
+    text-align: start;
+    color: #2CB196; }
+    .sectionInfoMacroPk .styloLista{
+      color: #004649;
+    }
+  .sectionInfoMacroPk a{
+    font-weight: bolder;
+    text-decoration: none;
+    color:#2CB196;
+  }
+  .sectionInfoMacroPk .colorLista {
+    color: #004649;
+  }
+  .sectionInfoMacroPk .subtFinal{
+    font-weight: bolder;
+  }
+
+.bmkTips{
+  font-weight: bolder;
+} 
+
+.imgMacroPk {
+  display: none;
+  margin-right: 60px;
+  grid-area: imgMacroPk;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px; }
+  .imgMacroPk img {
+    margin-left: 20px;
+    height: 190px;
+    width: auto; }
+
+.footerMacroPk {
+  grid-area: footerMacroPk; }
+  .footerMacroPk a {
+    font-weight: bolder;
+    font-size: 0.8rem;
+    margin-left: 80px;
+    text-decoration: none;
+    color: #004649; }
+  .footerMacroPk p {
+    margin-top: 20px;
+    font-size: 0.7rem;
+    text-align: center;
+    color: #004649; }
+
+/* media queris macro pk */
+@media only screen and (min-width: 480px){
+  .bodyMacroPk{
+    background-image: url(../img/imgfondo480px.jpg);
+  }
+  .mainMacroPk h2{
+    margin-left: 80px;
+  }
+  .sectionInfoMacroPk h3{
+    margin-left: 20px;
+  }
+  .sectionInfoMacroPk h4{
+    margin-left: 90px;
+  }
+  .sectionInfoMacroPk p{
+    margin-left: 90px;
+  }
+  .sectionInfoMacroPk ul li{
+    margin-left: 80px;
+    margin-right: 90px;
+  }
+}
+@media only screen and (min-width: 600px){
+  .bodyMacroPk{
+    background-image: url(../img/imgfondo600px.jpg);
+  }
+  .headerMacroPk{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .mainMacroPk{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .sectionInfoMacroPk .primerP{
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .sectionInfoMacroPk h3{
+    margin-left: 40px;
+  }
+  .sectionInfoMacroPk h4{
+    margin-left: 120px;
+  }
+  .sectionInfoMacroPk p{
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  .sectionInfoMacroPk ul li{
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  .footerMacroPk a{
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .bodyMacroPk{
+    background-image: url(../img/imgfondo1024px.jpg);
+  }
+  .headerMacroPk h1 a{
+    font-size: 4rem;
+  }
+  .headerMacroPk{
+    font-size: 1.4rem;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .mainMacroPk{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .mainMacroPk h2{
+    font-size: 2.5rem;
+  }
+  .mainMacroPk ul li{
+    font-size: 1.5rem;
+  }
+  .sectionInfoMacroPk .primerP{
+    font-size: 1.4rem;
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+  .sectionInfoMacroPk h3 a{
+    font-size: 1.7rem;
+    margin-left: 130px;
+  }
+  .sectionInfoMacroPk h4{
+    font-size: 1.4rem;
+    margin-left: 190px;
+  }
+  .sectionInfoMacroPk p{
+    font-size: 1.4rem;
+    margin-left: 190px;
+    margin-right: 250px;
+  }
+  .sectionInfoMacroPk ul li{
+    font-size: 1.5rem;
+    margin-left: 180px;
+    margin-right: 250px;
+  }
+  .footerMacroPk a{
+    font-size: 1rem;
+    margin-left: 100px;
+  }
+  .footerMacroPk p{
+    margin-left: 320px;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .bodyMacroPk{
+    background-image: url(../img/imgfondo1200px.jpg);
+  }
+  .mainMacroPk h2{
+    margin-right: 250px;
+    margin-left: 250px;
+  }
+  .mainMacroPk ul li{
+    margin-left: 170px;
+  }
+  .sectionInfoMacroPk .primerP{
+    margin-left: 290px;
+    margin-right: 250px;
+  }
+  .sectionInfoMacroPk h3 a{
+    margin-left: 250px;
+  }
+  .sectionInfoMacroPk h4{
+    margin-left: 320px;
+  }
+  .sectionInfoMacroPk p{
+    margin-left: 340px;
+    margin-right: 300px;
+  }
+  .sectionInfoMacroPk ul li{
+    margin-right: 300px;
+    margin-left: 320px;
+  }
+}
+@media only screen and (min-width: 1600px){
+  .bodyMacroPk{
+    background-image: url(../img/imgfondo1600productos.jpg);
+  }
+}
+
+/* stylos nutri-mix */
+.bodyNutriMix{
+  background-image: url(../img/imgfondo375px.jpg);
+}
+
+.contenedorNutriMix {
+  display: grid;
+  grid-template-areas: "headerNutriMix headerNutriMix headerNutriMix headerNutriMix"
+ "mainNutriMix mainNutriMix mainNutriMix mainNutriMix"
+ "imgNutriMix imgNutriMix imgNutriMix imgNutriMix"
+ "sectionInfoNutriMix sectionInfoNutriMix sectionInfoNutriMix sectionInfoNutriMix"
+ "footerNutriMix footerNutriMix footerNutriMix footerNutriMix"; }
+
+.headerNutriMix {
+  grid-area: headerNutriMix;
+  display: grid;
+  justify-content: center; }
+  .headerNutriMix a {
+    text-decoration: none;
+    color: #004649; }
+  .headerNutriMix h1 {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 90px; }
+div header p {
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 90px;
+}
+
+.mainNutriMix {
+  grid-area: mainNutriMix; }
+  .mainNutriMix h2 {
+    text-align: center;
+    color: #004649;
+    background-color: white;
+    margin-left: 60px;
+    margin-right: 85px;
+    padding: 5px; }
+
+.sectionNutriMix ul{
+    text-align: start;
+    margin-right: 80px;
+    margin-left: 70px;
+    color: #004649}
+  .sectionNutriMix ul li{
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .titulosNutrimix {
+    font-weight: bolder;
+    color: #2CB196;
+  }
+
+.sectionInfoNutriMix {
+  font-size: 1.1rem;
+  grid-area: sectionInfoNutriMix;
+  color: #004649; }
+  .sectionInfoNutriMix .primerP{
+    text-align: start;
+    margin-left: 70px;
+    margin-right: 80px;
+  }
+  .sectionInfoNutriMix h3 a{
+    margin-right: 40px;
+    margin-left: 70px;
+    text-align: start;
+    font-size: 0.9rem;
+    color: #2CB196; }
+  .sectionInfoNutriMix h4{
+    margin-right: 80px;
+    margin-left: 80px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  .sectionInfoNutriMix p{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .sectionInfoNutriMix ul li {
+    margin-left: 60px;
+    margin-right: 70px;
+    text-align: start;
+    color: #2CB196; }
+    .sectionInfoNutriMix .styloLista{
+      color: #004649;
+    }
+  .sectionInfoNutriMix a{
+    font-weight: bolder;
+    text-decoration: none;
+    color:#2CB196;
+  }
+  .sectionInfoNutriMix .colorLista {
+    color: #004649;
+  }
+  .sectionInfoNutriMix .subtFinal{
+    font-weight: bolder;
+  }
+
+.bmkTips{
+  font-weight: bolder;
+} 
+
+.imgNutriMix {
+  display: none;
+  margin-right: 60px;
+  grid-area: imgNutriMix;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px; }
+  .imgNutriMix img {
+    margin-left: 20px;
+    height: 190px;
+    width: auto; }
+
+.footerNutriMix {
+  grid-area: footerNutriMix; }
+  .footerNutriMix a {
+    font-weight: bolder;
+    font-size: 0.8rem;
+    margin-left: 80px;
+    text-decoration: none;
+    color: #004649; }
+  .footerNutriMix p {
+    margin-top: 20px;
+    font-size: 0.7rem;
+    text-align: center;
+    color: #004649; }
+
+/* media queris nutri mix */
+@media only screen and (min-width: 480px){
+  .bodyNutriMix{
+    background-image: url(../img/imgfondo480px.jpg);
+  }
+  .mainNutriMix h2{
+    margin-left: 80px;
+  }
+  .sectionInfoNutriMix h3{
+    margin-left: 20px;
+  }
+  .sectionInfoNutriMix h4{
+    margin-left: 90px;
+  }
+  .sectionInfoNutriMix p{
+    margin-left: 90px;
+  }
+  .sectionInfoNutriMix ul li{
+    margin-left: 80px;
+    margin-right: 90px;
+  }
+}
+@media only screen and (min-width: 600px){
+  .bodyNutriMix{
+    background-image: url(../img/imgfondo600px.jpg);
+  }
+  .headerNutriMix{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .mainNutriMix{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .sectionInfoNutriMix .primerP{
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .sectionInfoNutriMix h3{
+    margin-left: 40px;
+  }
+  .sectionInfoNutriMix h4{
+    margin-left: 120px;
+  }
+  .sectionInfoNutriMix p{
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  .sectionInfoNutriMix ul li{
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  .footerNutriMix a{
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .bodyNutriMix{
+    background-image: url(../img/imgfondo1024px.jpg);
+  }
+  .headerNutriMix h1 a{
+    font-size: 4rem;
+  }
+  .headerNutriMix{
+    font-size: 1.4rem;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .mainNutriMix{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .mainNutriMix h2{
+    font-size: 2.5rem;
+  }
+  .mainNutriMix ul li{
+    font-size: 1.5rem;
+  }
+  .sectionInfoNutriMix .primerP{
+    font-size: 1.4rem;
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+  .sectionInfoNutriMix h3 a{
+    font-size: 1.7rem;
+    margin-left: 130px;
+  }
+  .sectionInfoNutriMix h4{
+    font-size: 1.4rem;
+    margin-left: 190px;
+  }
+  .sectionInfoNutriMix p{
+    font-size: 1.4rem;
+    margin-left: 190px;
+    margin-right: 250px;
+  }
+  .sectionInfoNutriMix ul li{
+    font-size: 1.5rem;
+    margin-left: 180px;
+    margin-right: 250px;
+  }
+  .footerNutriMix a{
+    font-size: 1rem;
+    margin-left: 100px;
+  }
+  .footerNutriMix p{
+    margin-left: 320px;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .bodyNutriMix{
+    background-image: url(../img/imgfondo1200px.jpg);
+  }
+  .mainNutriMix h2{
+    margin-right: 250px;
+    margin-left: 250px;
+  }
+  .mainNutriMix ul li{
+    margin-left: 170px;
+  }
+  .sectionInfoNutriMix .primerP{
+    margin-left: 290px;
+    margin-right: 250px;
+  }
+  .sectionInfoNutriMix h3 a{
+    margin-left: 250px;
+  }
+  .sectionInfoNutriMix h4{
+    margin-left: 320px;
+  }
+  .sectionInfoNutriMix p{
+    margin-left: 340px;
+    margin-right: 300px;
+  }
+  .sectionInfoNutriMix ul li{
+    margin-right: 300px;
+    margin-left: 320px;
+  }
+}
+@media only screen and (min-width: 1600px){
+  .bodyNutriMix{
+    background-image: url(../img/imgfondo1600productos.jpg);
+  }
+}
+
+/* stylos miel negra */
+.bodyMielN{
+  background-image: url(../img/imgfondo375px.jpg);
+}
+
+.contenedorMielN {
+  display: grid;
+  grid-template-areas: "headerMielN headerMielN headerMielN headerMielN"
+ "mainMielN mainMielN mainMielN mainMielN"
+ "imgMielN imgMielN imgMielN imgMielN"
+ "sectionInfoMielN sectionInfoMielN sectionInfoMielN sectionInfoMielN"
+ "footerMielN footerMielN footerMielN footerMielN"; }
+
+.headerMielN {
+  grid-area: headerMielN;
+  display: grid;
+  justify-content: center; }
+  .headerMielN a {
+    text-decoration: none;
+    color: #004649; }
+  .headerMielN h1 {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 90px; }
+div header p {
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 90px;
+}
+
+.mainMielN {
+  grid-area: mainMielN; }
+  .mainMielN h2 {
+    text-align: center;
+    color: #004649;
+    background-color: white;
+    margin-left: 60px;
+    margin-right: 85px;
+    padding: 5px; }
+
+.sectionMielN ul{
+    text-align: start;
+    margin-right: 80px;
+    margin-left: 70px;
+    color: #004649}
+  .sectionMielN ul li{
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .titulosMielnegra {
+    font-weight: bolder;
+    color: #2CB196;
+  }
+
+.sectionInfoMielN {
+  font-size: 1.1rem;
+  grid-area: sectionInfoMielN;
+  color: #004649; }
+  .sectionInfoMielN .primerP{
+    text-align: start;
+    margin-left: 70px;
+    margin-right: 80px;
+  }
+  .sectionInfoMielN h3 a{
+    margin-right: 40px;
+    margin-left: 70px;
+    text-align: start;
+    font-size: 0.9rem;
+    color: #2CB196; }
+  .sectionInfoMielN h4{
+    margin-right: 80px;
+    margin-left: 80px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  .sectionInfoMielN p{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .sectionInfoMielN ul li {
+    margin-left: 60px;
+    margin-right: 70px;
+    text-align: start;
+    color: #2CB196; }
+    .sectionInfoMielN .styloLista{
+      color: #004649;
+    }
+  .sectionInfoMielN a{
+    font-weight: bolder;
+    text-decoration: none;
+    color:#2CB196;
+  }
+  .sectionInfoMielN .colorLista {
+    color: #004649;
+  }
+  .sectionInfoMielN .subtFinal{
+    font-weight: bolder;
+  }
+
+.bmkTips{
+  font-weight: bolder;
+} 
+
+.imgMielN {
+  display: none;
+  margin-right: 60px;
+  grid-area: imgMielN;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px; }
+  .imgMielN img {
+    margin-left: 20px;
+    height: 190px;
+    width: auto; }
+
+.footerMielN {
+  grid-area: footerMielN; }
+  .footerMielN a {
+    font-weight: bolder;
+    font-size: 0.8rem;
+    margin-left: 80px;
+    text-decoration: none;
+    color: #004649; }
+  .footerMielN p {
+    margin-top: 20px;
+    font-size: 0.7rem;
+    text-align: center;
+    color: #004649; }
+
+/* media queris miel negra */
+@media only screen and (min-width: 480px){
+  .bodyMielN{
+    background-image: url(../img/imgfondo480px.jpg);
+  }
+  .mainMielN h2{
+    margin-left: 80px;
+  }
+  .sectionInfoMielN h3{
+    margin-left: 20px;
+  }
+  .sectionInfoMielN h4{
+    margin-left: 90px;
+  }
+  .sectionInfoMielN p{
+    margin-left: 90px;
+  }
+  .sectionInfoMielN ul li{
+    margin-left: 80px;
+    margin-right: 90px;
+  }
+}
+@media only screen and (min-width: 600px){
+  .bodyMielN{
+    background-image: url(../img/imgfondo600px.jpg);
+  }
+  .headerMielN{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .mainMielN{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .sectionInfoMielN .primerP{
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .sectionInfoMielN h3{
+    margin-left: 40px;
+  }
+  .sectionInfoMielN h4{
+    margin-left: 120px;
+  }
+  .sectionInfoMielN p{
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  .sectionInfoMielN ul li{
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  .footerMielN a{
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .bodyMielN{
+    background-image: url(../img/imgfondo1024px.jpg);
+  }
+  .headerMielN h1 a{
+    font-size: 4rem;
+  }
+  .headerMielN{
+    font-size: 1.4rem;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .mainMielN{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .mainMielN h2{
+    font-size: 2.5rem;
+  }
+  .mainMielN ul li{
+    font-size: 1.5rem;
+  }
+  .sectionInfoMielN .primerP{
+    font-size: 1.4rem;
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+  .sectionInfoMielN h3 a{
+    font-size: 1.7rem;
+    margin-left: 130px;
+  }
+  .sectionInfoMielN h4{
+    font-size: 1.4rem;
+    margin-left: 190px;
+  }
+  .sectionInfoMielN p{
+    font-size: 1.4rem;
+    margin-left: 190px;
+    margin-right: 250px;
+  }
+  .sectionInfoMielN ul li{
+    font-size: 1.5rem;
+    margin-left: 180px;
+    margin-right: 250px;
+  }
+  .footerMielN a{
+    font-size: 1rem;
+    margin-left: 100px;
+  }
+  .footerMielN p{
+    margin-left: 320px;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .bodyMielN{
+    background-image: url(../img/imgfondo1200px.jpg);
+  }
+  .mainMielN h2{
+    margin-right: 250px;
+    margin-left: 250px;
+  }
+  .mainMielN ul li{
+    margin-left: 170px;
+  }
+  .sectionInfoMielN .primerP{
+    margin-left: 290px;
+    margin-right: 250px;
+  }
+  .sectionInfoMielN h3 a{
+    margin-left: 250px;
+  }
+  .sectionInfoMielN h4{
+    margin-left: 320px;
+  }
+  .sectionInfoMielN p{
+    margin-left: 340px;
+    margin-right: 300px;
+  }
+  .sectionInfoMielN ul li{
+    margin-right: 300px;
+    margin-left: 320px;
+  }
+}
+@media only screen and (min-width: 1600px){
+  .bodyMielN{
+    background-image: url(../img/imgfondo1600productos.jpg);
+  }
+}
